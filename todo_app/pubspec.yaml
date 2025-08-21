@@ -1,0 +1,41 @@
+name: todo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.9.0
+  firebase_auth: ^4.10.1
+  smooth_page_indicator: ^1.2.1
+  table_calendar: ^3.0.9
+  http: ^1.4.0
+  google_sign_in: ^5.4.0
+  cupertino_icons: ^1.0.8
+  gap: ^3.0.1
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  google_sign_in_ios: 5.6.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: RobotoMyFont
+      fonts:
+        - asset: assets/fonts/Rochester-Regular.ttf
+    - family: Darumadropone
+      fonts:
+        - asset: assets/fonts/DarumadropOne-Regular.ttf
