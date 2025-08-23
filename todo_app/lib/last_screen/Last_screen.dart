@@ -84,14 +84,15 @@ Widget myListTile({
         Row(
           children: [
             Icon(
+
               leadingicon,
-              color: Colors.white,
+              color: Colors.black,
               size: 50,
             ),
             Gap(10),
             Text(
               title,
-              style: TextStyle(fontSize: 16, color: Colors.white),
+              style: TextStyle(fontSize: 50, color: Colors.white),
             ),
             Spacer(),
             Icon(
