@@ -75,7 +75,7 @@ class _CalenderState extends State<Calender> {
       backgroundColor: Color(0xff05243E),
       appBar: AppBar(
         title: const Text(
-          "Manage Your Time and date and time yasin khan",
+          "Manage Your Time",
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
